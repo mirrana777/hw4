@@ -64,3 +64,11 @@ result = ' '.join(words)
 print(result)
 #i just decide to broke sentences into words, than i gone through this words and if it ends with . , then after it starts capital letter
 
+text = ("like many great poets,4 Auroth just wants time to write, but the Winter Wyvern's life 3 is full of interruptions. The epics of the Eldwurms have a long and colorful history,"
+        " but some fear that 5the remaining dragon scholars8 are not as prolific as 5 they once were, with few lines added to the Eldwurm Eddas since the last age of greatness.")
+digits = 0
+for numbers in text:
+    if numbers.isdigit():
+        digits += 1
+print("Numbers in text: ",digits)
+#there i left some hidden numbers and my code reads them
