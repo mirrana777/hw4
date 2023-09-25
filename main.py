@@ -72,3 +72,15 @@ for numbers in text:
         digits += 1
 print("Numbers in text: ",digits)
 #there i left some hidden numbers and my code reads them
+text = ("like many great poets, Auroth just wants time to write, but the Winter Wyvern's life is full of interruptions. The epics of the Eldwurms have a long and colorful history,"
+        " but some fear that the remaining dragon scholars are not as prolific as they once were, with few lines added to the Eldwurm Eddas since the last age of greatness.")
+dots = 0
+points = 0
+for symbol in text:
+    if symbol == '.':
+        points += 1
+    elif symbol == ',':
+        dots += 1
+
+print("Points: ", points)
+print("Dots: ", dots)
