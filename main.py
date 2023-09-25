@@ -17,3 +17,10 @@ for answer in string:
     if answer == searching:
         variable += 1
 print (f"Symbol '{searching}' used {variable} times in string")
+# task3
+string = input ("Enter the string: ")
+change = input ("Eneter a word to change: ")
+changed = input ("Enter a word for raplecment: ")
+resault = string.replace(change, changed)
+print ("resault string:" + resault)
+
