@@ -9,3 +9,11 @@ for symbol in string:
         letters += 1
 print ("Digits: ", digits)
 print ("Letters: ", letters)
+# task2
+string = input ("Enter a string: ")
+searching = input ("Enter symbol for searching: ")
+variable = 0
+for answer in string:
+    if answer == searching:
+        variable += 1
+print (f"Symbol '{searching}' used {variable} times in string")
