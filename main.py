@@ -24,3 +24,31 @@ changed = input ("Enter a word for raplecment: ")
 resault = string.replace(change, changed)
 print ("resault string:" + resault)
 
+#task 4
+#1
+string = "Let the sky tear down the unworthy"
+print(string[2])
+#2
+string = "Let the sky tear down the unworthy"
+print(string[-2])
+#3
+string = "Let the sky tear down the unworthy"
+print(string[:5])
+#4
+string = "Let the sky tear down the unworthy"
+print(string[:-2])
+#5
+string = "Let the sky tear down the unworthy"
+print(string[:2])
+#6
+string = "Let the sky tear down the unworthy"
+print(string[1::2 ])
+#7
+string = "Let the sky tear down the unworthy"
+print(string[::-1])
+#8
+string = "Let the sky tear down the unworthy"
+print(string[-1::-2])
+#9
+string = "Let the sky tear down the unworthy"
+print(len(string))
