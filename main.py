@@ -24,8 +24,8 @@ changed = input ("Enter a word for raplecment: ")
 resault = string.replace(change, changed)
 print ("resault string:" + resault)
 
-#task 4
-#1
+#task 4.1
+
 string = "Let the sky tear down the unworthy"
 print(string[2])
 #2
