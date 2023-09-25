@@ -52,3 +52,15 @@ print(string[-1::-2])
 #9
 string = "Let the sky tear down the unworthy"
 print(len(string))
+
+#4.2
+text = ("like many great poets, Auroth just wants time to write, but the Winter Wyvern's life is full of interruptions. The epics of the Eldwurms have a long and colorful history,"
+        " but some fear that the remaining dragon scholars are not as prolific as they once were, with few lines added to the Eldwurm Eddas since the last age of greatness.")
+words = text.split()
+for i in range(0,len(words)):
+    if words[i-1].endswith(('.',',')):
+            words[i] = words[i].capitalize()
+result = ' '.join(words)
+print(result)
+#i just decide to broke sentences into words, than i gone through this words and if it ends with . , then after it starts capital letter
+
