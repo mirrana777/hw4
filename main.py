@@ -63,7 +63,7 @@ for i in range(0,len(words)):
 result = ' '.join(words)
 print(result)
 #i just decide to broke sentences into words, than i gone through this words and if it ends with . , then after it starts capital letter
-#3
+#4.3
 text = ("like many great poets,4 Auroth just wants time to write, but the Winter Wyvern's life 3 is full of interruptions. The epics of the Eldwurms have a long and colorful history,"
         " but some fear that 5the remaining dragon scholars8 are not as prolific as 5 they once were, with few lines added to the Eldwurm Eddas since the last age of greatness.")
 digits = 0
@@ -85,7 +85,7 @@ for symbol in text:
 print("Points: ", points)
 print("Dots: ", dots)
 
-#4
+#4.4
 text = ("like many great poets, Auroth just wants time to write, but the Winter Wyvern's life is full of interruptions. The epics of the Eldwurms have a long and colorful history!"
         " but some fear that the remaining dragon scholars are not as prolific as they once were, with few lines added !to the Eldwurm Eddas since the last age of greatness.!")
 sign = 0
